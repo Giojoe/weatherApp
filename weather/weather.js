@@ -1,5 +1,5 @@
 const request = require('request');
-const apiKey = '9d898dfa2ae8a6d46bc4b8d4c798a270';
+const apiKey = 'YourAPIKey';
 
 var getWeather = (lat, long, callback) => {
   request({
