@@ -6,7 +6,7 @@ var asyncAdd = (a, b) => {
       } else {
         reject('Argument must be numbers');
       }
-    }, 1500);
+    }, 2500);
   });
 };
 
